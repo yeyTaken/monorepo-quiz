@@ -2,17 +2,22 @@
   "name": "codematica-2025",
   "version": "1.0.0",
   "description": "Identificar gráficos de funções (Seno Coseno, Tangente) reconhecendo suas propriedades.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "tsx src/index.ts",
-    "build": "tsc"
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "uuid": "^9.0.0"
+  },
   "devDependencies": {
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/uuid": "latest"
   }
 }

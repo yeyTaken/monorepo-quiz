@@ -1,0 +1,125 @@
+{
+    "tema": "Identificar gráficos de funções (Seno, Cosseno, Tangente), reconhecendo suas propriedades",
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual das seguintes funções tem um gráfico que passa pela origem (0,0)?",
+        "opcoes": {
+          "a": "seno(x)",
+          "b": "cosseno(x)",
+          "c": "tangente(x)",
+          "d": "seno(x) + 1"
+        },
+        "resposta_correta": "a",
+        "explicacao": "O gráfico de seno(x) passa pela origem, pois sen(0) = 0."
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual o período da função cosseno(x)?",
+        "opcoes": {
+          "a": "π",
+          "b": "2π",
+          "c": "1",
+          "d": "π/2"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A função cosseno(x) completa um ciclo completo a cada 2π unidades."
+      },
+      {
+        "id": 3,
+        "pergunta": "Qual é a amplitude da função y = 2sen(x)?",
+        "opcoes": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "0.5"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A amplitude é o valor máximo da função, que neste caso é 2 devido ao coeficiente."
+      },
+      {
+        "id": 4,
+        "pergunta": "A função tangente(x) apresenta quais características?",
+        "opcoes": {
+          "a": "É periódica e tem assíntotas verticais",
+          "b": "É limitada e contínua",
+          "c": "Tem máximo e mínimo",
+          "d": "É simétrica ao eixo y"
+        },
+        "resposta_correta": "a",
+        "explicacao": "A tangente(x) é periódica com período π e tem assíntotas verticais em x = π/2 + kπ."
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual gráfico apresenta simetria em relação à origem?",
+        "opcoes": {
+          "a": "seno(x)",
+          "b": "cosseno(x)",
+          "c": "seno(x) + 2",
+          "d": "cosseno(x) + 1"
+        },
+        "resposta_correta": "a",
+        "explicacao": "O seno é uma função ímpar, ou seja, f(-x) = -f(x), o que indica simetria em relação à origem."
+      },
+      {
+        "id": 6,
+        "pergunta": "Qual é o valor máximo da função y = cos(x)?",
+        "opcoes": {
+          "a": "0",
+          "b": "1",
+          "c": "-1",
+          "d": "2"
+        },
+        "resposta_correta": "b",
+        "explicacao": "O valor máximo do cosseno(x) é 1, quando x = 0, 2π, etc."
+      },
+      {
+        "id": 7,
+        "pergunta": "Para a função y = sen(x), qual é o intervalo do conjunto imagem?",
+        "opcoes": {
+          "a": "[0,1]",
+          "b": "[-1,1]",
+          "c": "[-π,π]",
+          "d": "[0,π]"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A função seno varia entre -1 e 1."
+      },
+      {
+        "id": 8,
+        "pergunta": "Em qual ponto a função y = tan(x) não está definida?",
+        "opcoes": {
+          "a": "x = 0",
+          "b": "x = π",
+          "c": "x = π/2",
+          "d": "x = 2π"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A tangente não está definida em x = π/2 + kπ, onde o cosseno é zero."
+      },
+      {
+        "id": 9,
+        "pergunta": "Qual transformação é aplicada em y = -cos(x)?",
+        "opcoes": {
+          "a": "Translação vertical",
+          "b": "Reflexão sobre o eixo x",
+          "c": "Alongamento horizontal",
+          "d": "Reflexão sobre o eixo y"
+        },
+        "resposta_correta": "b",
+        "explicacao": "O sinal negativo inverte o gráfico em relação ao eixo x."
+      },
+      {
+        "id": 10,
+        "pergunta": "Qual das funções possui período igual a π?",
+        "opcoes": {
+          "a": "sen(x)",
+          "b": "cos(x)",
+          "c": "tan(x)",
+          "d": "sen(2x)"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A tangente tem período π, enquanto seno e cosseno têm período 2π."
+      }
+    ]
+  }
