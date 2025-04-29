@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import confetti from "canvas-confetti";
+
 import "../../../public/quiz/page.css";
 
 type Question = {
@@ -18,15 +19,13 @@ export default function QuizPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState<number>(0);
   const [selected, setSelected] = useState<string | null>(null);
-  const [correctAnswers, setCorrectAnswers] = useState<number[]>(() => {
-    const saved = localStorage.getItem("correctAnswers");
-    return saved ? (JSON.parse(saved) as number[]) : [];
-  });
-  const score = correctAnswers.length;
+  const [correctAnswers, setCorrectAnswers] = useState<number[]>([]);
   const [showFeedback, setShowFeedback] = useState<boolean>(false);
   const [finished, setFinished] = useState<boolean>(false);
   const [startTime, setStartTime] = useState<Date | null>(null);
   const [endTime, setEndTime] = useState<Date | null>(null);
+
+  const score = correctAnswers.length;
 
   useEffect(() => {
     const stored = localStorage.getItem("questions");
@@ -38,6 +37,13 @@ export default function QuizPage() {
     setQuestions(JSON.parse(stored) as Question[]);
     setStartTime(new Date());
   }, [router]);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("correctAnswers");
+    if (saved) {
+      setCorrectAnswers(JSON.parse(saved));
+    }
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("correctAnswers", JSON.stringify(correctAnswers));
@@ -58,7 +64,7 @@ export default function QuizPage() {
     confetti({
       particleCount: 100,
       spread: 70,
-      origin: { y: 0 }
+      origin: { y: 0 },
     });
   };
 
@@ -67,7 +73,7 @@ export default function QuizPage() {
     setSelected(key);
     const isCorrect = key === q.resposta_correta;
     if (isCorrect) {
-      setCorrectAnswers(prev => [...prev, current]);
+      setCorrectAnswers((prev) => [...prev, current]);
       fireConfetti();
     }
     setShowFeedback(true);
@@ -76,7 +82,7 @@ export default function QuizPage() {
   const handleNext = () => {
     setSelected(null);
     setShowFeedback(false);
-    setCurrent(prev => prev + 1);
+    setCurrent((prev) => prev + 1);
   };
 
   const handleFinish = () => {
