@@ -31,7 +31,7 @@ export function submitPlayer(id: string) {
   tops.push(p);
   tops.sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
-    return (a.endTime! - a.startTime) - (b.endTime! - b.startTime);
+    return (a.endTime! - a.startTime) - (b.endTime! - a.startTime);
   });
   return p;
 }

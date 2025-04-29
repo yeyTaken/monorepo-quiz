@@ -4,20 +4,26 @@
   "description": "Identificar gráficos de funções (Seno Coseno, Tangente) reconhecendo suas propriedades.",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.2",
+    "@heroui/react": "^2.7.8",
+    "@tailwindcss/postcss": "^4.1.4",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "typescript": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "@types/uuid": "latest"
+    "@types/uuid": "latest",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
   }
 }

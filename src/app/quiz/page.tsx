@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 type Question = {
   id: number;
@@ -16,90 +16,154 @@ export default function QuizPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
-  const [showExplanation, setShowExplanation] = useState(false);
+  const [correctAnswers, setCorrectAnswers] = useState<number[]>(() => {
+    const saved = localStorage.getItem("correctAnswers");
+    return saved ? JSON.parse(saved) : [];
+  });
+  const score = correctAnswers.length;
+  const [showFeedback, setShowFeedback] = useState(false);
+  const [finished, setFinished] = useState(false);
+  const [startTime, setStartTime] = useState<Date | null>(null);
+  const [endTime, setEndTime] = useState<Date | null>(null);
 
   useEffect(() => {
-    const qs = localStorage.getItem('questions');
-    const qid = localStorage.getItem('quizId');
-    if (!qs || !qid) {
-      router.replace('/');
-      return;
-    }
-    setQuestions(JSON.parse(qs));
+    const stored = localStorage.getItem("questions");
+    const name = localStorage.getItem("playerName");
+    if (!stored || !name) return router.push("/");
+    setQuestions(JSON.parse(stored));
+    setStartTime(new Date());
   }, [router]);
 
-  if (!questions.length) return <div className="p-4">Carregando...</div>;
+  useEffect(() => {
+    localStorage.setItem("correctAnswers", JSON.stringify(correctAnswers));
+    localStorage.setItem("score", String(score));
+  }, [correctAnswers, score]);
+
+  if (questions.length === 0)
+    return (
+      <div>
+        <p>Carregando...</p>
+      </div>
+    );
 
   const q = questions[current];
 
-  const handleSelect = async (key: string) => {
+  const handleSelect = (key: string) => {
     if (selected) return;
     setSelected(key);
-    const correct = key === q.resposta_correta;
-    await fetch('/api/answer', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: localStorage.getItem('quizId'), correct }),
-    });
-    setShowExplanation(true);
-  };
-
-  const handleNext = async () => {
+    const isCorrect = key === q.resposta_correta;
+    if (isCorrect && !correctAnswers.includes(current))
+      setCorrectAnswers((prev) => [...prev, current]);
+    setShowFeedback(true);
     if (current === questions.length - 1) {
-      await fetch('/api/submit', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: localStorage.getItem('quizId') }),
-      });
-      router.push('/top');
-    } else {
-      setCurrent(c => c + 1);
-      setSelected(null);
-      setShowExplanation(false);
+      setEndTime(new Date());
+      setFinished(true);
     }
   };
 
-  return (
-    <div className="p-6 max-w-xl mx-auto">
-      <h2 className="text-xl font-bold mb-4">Pergunta {current + 1} / {questions.length}</h2>
-      <p className="mb-6">{q.pergunta}</p>
-      <div className="flex flex-col gap-4">
-        {Object.entries(q.opcoes).map(([key, val]) => {
-          const isCorrect = key === q.resposta_correta;
-          const isSelected = key === selected;
-          let bgClass = '';
-          if (selected) {
-            if (isCorrect) bgClass = 'bg-green-200';
-            else if (isSelected) bgClass = 'bg-red-200';
-            else bgClass = 'opacity-50';
-          } else bgClass = 'hover:bg-gray-100';
+  const handleNext = () => {
+    setSelected(null);
+    setShowFeedback(false);
+    setCurrent((prev) => prev + 1);
+  };
 
-          return (
-            <button
-              key={key}
-              disabled={!!selected}
-              onClick={() => handleSelect(key)}
-              className={`border p-3 rounded text-left ${bgClass}`}
-            >
-              <strong>{key.toUpperCase()})</strong> {val}
-            </button>
-          );
-        })}
-      </div>
-      {showExplanation && (
-        <div className="mt-6">
-          <p className="mb-2"><strong>Explicação:</strong> {q.explicacao}</p>
-          {selected !== q.resposta_correta && (
-            <p className="mb-4 text-blue-600">
-              Resposta certa: <strong>{q.resposta_correta.toUpperCase()}) {q.opcoes[q.resposta_correta]}</strong>
-            </p>
-          )}
+  const calculateTime = () => {
+    if (!startTime || !endTime) return "0.00s";
+    return ((endTime.getTime() - startTime.getTime()) / 1000).toFixed(2) + "s";
+  };
+
+  if (finished) {
+    const playerName = localStorage.getItem("playerName");
+    return (
+      <div>
+        <div>
+          <h1>
+            🎉 Parabéns, {playerName}!
+          </h1>
+          <p>
+            Acertos: <span>{score}</span> /{" "}
+            {questions.length}
+          </p>
+          <p>
+            Tempo: <span>{calculateTime()}</span>
+          </p>
           <button
-            onClick={handleNext}
-            className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700"
+            onClick={() => {
+              localStorage.clear();
+              router.push("/");
+            }}
           >
-            {current + 1 === questions.length ? 'Finalizar Quiz' : 'Próxima'}
+            Jogar Novamente
           </button>
         </div>
-      )}
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <div>
+        <div>
+          <span>
+            Pergunta {current + 1}/{questions.length}
+          </span>
+          <span>Score: {score}</span>
+        </div>
+        <div>
+          <h2>
+            {q.pergunta}
+          </h2>
+          <ul>
+            {Object.entries(q.opcoes).map(([key, text]) => {
+              const isChecked = selected === key;
+              const isCorrect = key === q.resposta_correta;
+              return (
+                <li key={key}>
+                  <label>
+                    <input
+                      type="radio"
+                      name={`question-${current}`}
+                      checked={isChecked}
+                      disabled={!!selected}
+                      onChange={() => handleSelect(key)}
+                    />
+                    <span>{key})</span>
+                    <span>{text}</span>
+                  </label>
+                </li>
+              );
+            })}
+          </ul>
+          {showFeedback && (
+            <div>
+              {selected === q.resposta_correta ? (
+                <p>
+                  ✅ Você acertou!
+                </p>
+              ) : (
+                <>
+                  <p>
+                    ❌ Você errou!
+                  </p>
+                  <p>
+                    Resposta correta:{" "}
+                    <strong>
+                      {q.resposta_correta}) {q.opcoes[q.resposta_correta]}
+                    </strong>
+                  </p>
+                </>
+              )}
+              {current < questions.length - 1 && (
+                <button
+                  onClick={handleNext}
+                >
+                  Próxima
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 }

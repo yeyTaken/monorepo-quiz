@@ -1,42 +1,45 @@
 "use client";
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { Button, Input } from "@heroui/react";
 
 export default function Home() {
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
   const router = useRouter();
 
   const startQuiz = async () => {
-    if (!name.trim()) return alert('Digite seu nome');
-    localStorage.setItem('playerName', name.trim());
+    if (!name.trim()) return alert("Digite seu nome");
 
-    const res = await fetch('/api/start', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const res = await fetch("/api/start", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name: name.trim() }),
     });
+
     const data = await res.json();
-    localStorage.setItem('quizId', data.id);
-    localStorage.setItem('questions', JSON.stringify(data.perguntas));
-    router.push('/quiz');
+    localStorage.setItem("playerName", name.trim());
+    localStorage.setItem("quizId", data.id);
+    localStorage.setItem("questions", JSON.stringify(data.perguntas));
+
+    router.push("/quiz");
   };
 
   return (
-    <div className="flex flex-col items-center mt-20">
-      <h1 className="text-3xl font-bold mb-6">Quiz de Funções Trigonométricas</h1>
-      <input
-        className="border p-2 mb-4 w-64 rounded"
-        placeholder="Digite seu nome"
-        value={name}
-        onChange={e => setName(e.target.value)}
-      />
-      <button
-        onClick={startQuiz}
-        className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
-      >
+    <div>
+      <div>
+        <h1>Quiz Trigonométrico</h1>
+        <input
+          type="text"
+          placeholder="Seu nome"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        
+        <Button onClick={startQuiz} color="primary" variant="ghost">
         Iniciar Quiz
-      </button>
+        </Button>
+      </div>
     </div>
   );
 }
