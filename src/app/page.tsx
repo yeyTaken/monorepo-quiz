@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Button, Input } from "@heroui/react";
+
+import "../../public/page.css";
 
 export default function Home() {
   const [name, setName] = useState("");
@@ -25,20 +26,30 @@ export default function Home() {
     router.push("/quiz");
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>): void => {
+    if (e.key === "Enter") {
+      startQuiz();
+    }
+  };
+
   return (
-    <div>
-      <div>
+    <div className="home-container">
+      <div className="home-card">
         <h1>Quiz Trigonométrico</h1>
+        <p className="home-description">
+          Identificar gráficos de funções (Seno, Cosseno, Tangente) reconhecendo suas propriedades.
+        </p>
         <input
+          className="home-input"
           type="text"
           placeholder="Seu nome"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
-        
-        <Button onClick={startQuiz} color="primary" variant="ghost">
-        Iniciar Quiz
-        </Button>
+        <button className="home-button" onClick={startQuiz}>
+          Iniciar Quiz
+        </button>
       </div>
     </div>
   );

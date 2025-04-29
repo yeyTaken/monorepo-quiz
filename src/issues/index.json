@@ -1,125 +1,185 @@
 {
-    "tema": "Identificar gráficos de funções (Seno, Cosseno, Tangente), reconhecendo suas propriedades",
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual das seguintes funções tem um gráfico que passa pela origem (0,0)?",
-        "opcoes": {
-          "a": "seno(x)",
-          "b": "cosseno(x)",
-          "c": "tangente(x)",
-          "d": "seno(x) + 1"
-        },
-        "resposta_correta": "a",
-        "explicacao": "O gráfico de seno(x) passa pela origem, pois sen(0) = 0."
+  "tema": "Identificar gráficos de funções (Seno Coseno, Tangente) reconhecendo suas propriedades.",
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Qual destas aplicações NÃO foi mencionada no texto como uso de funções trigonométricas?",
+      "opcoes": {
+        "a": "Determinação da posição em movimento circular",
+        "b": "Análise da frequência cardíaca",
+        "c": "Criptografia de senhas",
+        "d": "Avaliação do movimento das marés"
       },
-      {
-        "id": 2,
-        "pergunta": "Qual o período da função cosseno(x)?",
-        "opcoes": {
-          "a": "π",
-          "b": "2π",
-          "c": "1",
-          "d": "π/2"
-        },
-        "resposta_correta": "b",
-        "explicacao": "A função cosseno(x) completa um ciclo completo a cada 2π unidades."
+      "resposta_correta": "c",
+      "explicacao": "O texto cita astronomia, marés, trajetória circular, rodas-gigantes, ondas sonoras e frequência cardíaca, mas não menciona criptografia."
+    },
+    {
+      "id": 2,
+      "pergunta": "Quantas oscilações completas a função y = tan(x) realiza no intervalo [0, 2π]?",
+      "opcoes": {
+        "a": "1",
+        "b": "2",
+        "c": "4",
+        "d": "Não realiza oscilações completas"
       },
-      {
-        "id": 3,
-        "pergunta": "Qual é a amplitude da função y = 2sen(x)?",
-        "opcoes": {
-          "a": "1",
-          "b": "2",
-          "c": "3",
-          "d": "0.5"
-        },
-        "resposta_correta": "b",
-        "explicacao": "A amplitude é o valor máximo da função, que neste caso é 2 devido ao coeficiente."
+      "resposta_correta": "b",
+      "explicacao": "No intervalo de 0 a 2π a tangente tem período π, então faz 2 oscilações completas."
+    },
+    {
+      "id": 3,
+      "pergunta": "No gráfico de y = sen(x), o que representa a 'linha média' mencionada ao definir a amplitude?",
+      "opcoes": {
+        "a": "O eixo x (y = 0)",
+        "b": "A reta y = 1",
+        "c": "A reta y = -1",
+        "d": "O eixo y (x = 0)"
       },
-      {
-        "id": 4,
-        "pergunta": "A função tangente(x) apresenta quais características?",
-        "opcoes": {
-          "a": "É periódica e tem assíntotas verticais",
-          "b": "É limitada e contínua",
-          "c": "Tem máximo e mínimo",
-          "d": "É simétrica ao eixo y"
-        },
-        "resposta_correta": "a",
-        "explicacao": "A tangente(x) é periódica com período π e tem assíntotas verticais em x = π/2 + kπ."
+      "resposta_correta": "a",
+      "explicacao": "A linha média de uma função trigonométrica é o eixo horizontal y = 0, equidistante dos valores máximo e mínimo."
+    },
+    {
+      "id": 4,
+      "pergunta": "Qual é o período das funções seno e cosseno, conforme explicado no texto?",
+      "opcoes": {
+        "a": "π",
+        "b": "2π",
+        "c": "π/2",
+        "d": "4π"
       },
-      {
-        "id": 5,
-        "pergunta": "Qual gráfico apresenta simetria em relação à origem?",
-        "opcoes": {
-          "a": "seno(x)",
-          "b": "cosseno(x)",
-          "c": "seno(x) + 2",
-          "d": "cosseno(x) + 1"
-        },
-        "resposta_correta": "a",
-        "explicacao": "O seno é uma função ímpar, ou seja, f(-x) = -f(x), o que indica simetria em relação à origem."
+      "resposta_correta": "b",
+      "explicacao": "Seno e cosseno completam um ciclo completo a cada 2π unidades."
+    },
+    {
+      "id": 5,
+      "pergunta": "Por que a tangente de x não está definida em x = π/2 + kπ?",
+      "opcoes": {
+        "a": "Porque o seno vale zero nesses pontos",
+        "b": "Porque o cosseno vale zero nesses pontos",
+        "c": "Porque o tangente é infinito em todos os múltiplos de π",
+        "d": "Porque o seno e o cosseno são iguais"
       },
-      {
-        "id": 6,
-        "pergunta": "Qual é o valor máximo da função y = cos(x)?",
-        "opcoes": {
-          "a": "0",
-          "b": "1",
-          "c": "-1",
-          "d": "2"
-        },
-        "resposta_correta": "b",
-        "explicacao": "O valor máximo do cosseno(x) é 1, quando x = 0, 2π, etc."
+      "resposta_correta": "b",
+      "explicacao": "A tangente é definida como seno/cosseno e, quando o cosseno é zero (x = π/2 + kπ), a tangente torna-se indefinida."
+    },
+    {
+      "id": 6,
+      "pergunta": "Qual valor máximo que a função y = sen(x) pode atingir?",
+      "opcoes": {
+        "a": "1",
+        "b": "0",
+        "c": "π",
+        "d": "2"
       },
-      {
-        "id": 7,
-        "pergunta": "Para a função y = sen(x), qual é o intervalo do conjunto imagem?",
-        "opcoes": {
-          "a": "[0,1]",
-          "b": "[-1,1]",
-          "c": "[-π,π]",
-          "d": "[0,π]"
-        },
-        "resposta_correta": "b",
-        "explicacao": "A função seno varia entre -1 e 1."
+      "resposta_correta": "a",
+      "explicacao": "O valor máximo do seno é 1, atingido em x = π/2 + 2kπ."
+    },
+    {
+      "id": 7,
+      "pergunta": "Em qual dos seguintes intervalos a função cosseno é negativa?",
+      "opcoes": {
+        "a": "[0, π/2]",
+        "b": "[π/2, 3π/2]",
+        "c": "[0, π]",
+        "d": "[3π/2, 2π]"
       },
-      {
-        "id": 8,
-        "pergunta": "Em qual ponto a função y = tan(x) não está definida?",
-        "opcoes": {
-          "a": "x = 0",
-          "b": "x = π",
-          "c": "x = π/2",
-          "d": "x = 2π"
-        },
-        "resposta_correta": "c",
-        "explicacao": "A tangente não está definida em x = π/2 + kπ, onde o cosseno é zero."
+      "resposta_correta": "b",
+      "explicacao": "O cosseno é negativo entre π/2 e 3π/2, ou seja, no segundo e terceiro quadrantes."
+    },
+    {
+      "id": 8,
+      "pergunta": "O que caracteriza a amplitude de uma função seno?",
+      "opcoes": {
+        "a": "A distância entre dois máximos consecutivos",
+        "b": "A diferença entre o maior e o menor valor da função",
+        "c": "A altura do pico em relação à linha média",
+        "d": "O número de ciclos por unidade de tempo"
       },
-      {
-        "id": 9,
-        "pergunta": "Qual transformação é aplicada em y = -cos(x)?",
-        "opcoes": {
-          "a": "Translação vertical",
-          "b": "Reflexão sobre o eixo x",
-          "c": "Alongamento horizontal",
-          "d": "Reflexão sobre o eixo y"
-        },
-        "resposta_correta": "b",
-        "explicacao": "O sinal negativo inverte o gráfico em relação ao eixo x."
+      "resposta_correta": "c",
+      "explicacao": "A amplitude é medida a partir da linha média até o valor máximo (ou mínimo) da função."
+    },
+    {
+      "id": 9,
+      "pergunta": "O que acontece com o gráfico da função seno se multiplicarmos a variável por 2, formando y = sen(2x)?",
+      "opcoes": {
+        "a": "O gráfico fica invertido",
+        "b": "A amplitude dobra",
+        "c": "O período se reduz à metade",
+        "d": "A função deixa de ser periódica"
       },
-      {
-        "id": 10,
-        "pergunta": "Qual das funções possui período igual a π?",
-        "opcoes": {
-          "a": "sen(x)",
-          "b": "cos(x)",
-          "c": "tan(x)",
-          "d": "sen(2x)"
-        },
-        "resposta_correta": "c",
-        "explicacao": "A tangente tem período π, enquanto seno e cosseno têm período 2π."
-      }
-    ]
-  }
+      "resposta_correta": "c",
+      "explicacao": "Multiplicar x por 2 reduz o período da função pela metade, de 2π para π."
+    },
+    {
+      "id": 10,
+      "pergunta": "Qual das funções trigonométricas é ímpar, ou seja, satisfaz f(-x) = -f(x)?",
+      "opcoes": {
+        "a": "y = cos(x)",
+        "b": "y = sen(x)",
+        "c": "y = sen²(x)",
+        "d": "y = |sen(x)|"
+      },
+      "resposta_correta": "b",
+      "explicacao": "A função seno é ímpar, pois sen(-x) = -sen(x)."
+    },
+    {
+      "id": 11,
+      "pergunta": "Qual das seguintes funções trigonométricas tem período igual a π?",
+      "opcoes": {
+        "a": "y = sen(x)",
+        "b": "y = cos(x)",
+        "c": "y = tan(x)",
+        "d": "y = sec(x)"
+      },
+      "resposta_correta": "c",
+      "explicacao": "A tangente tem período π, ao contrário do seno e cosseno, que têm período 2π."
+    },
+    {
+      "id": 12,
+      "pergunta": "No contexto do texto, qual aplicação está diretamente ligada ao uso de ciclos de seno ou cosseno?",
+      "opcoes": {
+        "a": "Contagem de pulsos elétricos",
+        "b": "Relações químicas entre átomos",
+        "c": "Rotações periódicas de rodas-gigantes",
+        "d": "Classificação taxonômica de organismos"
+      },
+      "resposta_correta": "c",
+      "explicacao": "O texto usa a roda-gigante como exemplo de movimento circular e periódico, representável com seno ou cosseno."
+    },
+    {
+      "id": 13,
+      "pergunta": "Em qual ponto do ciclo a função y = cos(x) atinge seu mínimo valor?",
+      "opcoes": {
+        "a": "x = 0",
+        "b": "x = π/2",
+        "c": "x = π",
+        "d": "x = 3π/2"
+      },
+      "resposta_correta": "c",
+      "explicacao": "O cosseno atinge o valor mínimo de -1 em x = π."
+    },
+    {
+      "id": 14,
+      "pergunta": "Se uma função for periódica, isso significa que ela...",
+      "opcoes": {
+        "a": "Tem valores fixos para todos os x",
+        "b": "Tem simetria axial",
+        "c": "Se repete em intervalos regulares",
+        "d": "É sempre crescente"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Funções periódicas repetem seu comportamento em intervalos constantes (ex: seno e cosseno)."
+    },
+    {
+      "id": 15,
+      "pergunta": "O que representa o valor absoluto da função seno, |sen(x)|?",
+      "opcoes": {
+        "a": "Reflexão da parte negativa sobre o eixo x",
+        "b": "Função crescente no intervalo [0, π]",
+        "c": "Inversão do gráfico de sen(x)",
+        "d": "Mudança de fase da função"
+      },
+      "resposta_correta": "a",
+      "explicacao": "O valor absoluto torna negativos em positivos, refletindo a parte inferior do gráfico no eixo x."
+    }
+  ]
+}
