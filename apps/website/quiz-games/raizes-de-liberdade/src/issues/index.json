@@ -1,0 +1,245 @@
+{
+  "tema": "Raízes de Liberdade.",
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "O que significava resistir para um povo escravizado no Brasil colonial?",
+      "opcoes": {
+        "a": "Fugir sempre que possível",
+        "b": "Guardar silêncio e obedecer",
+        "c": "Manter tradições, apoiar-se e proteger uns aos outros",
+        "d": "Esperar pela abolição"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Resistir incluía cultivar cultura, fé e união para sobreviver apesar da opressão."
+    },
+    {
+      "id": 2,
+      "pergunta": "Quando um quilombo era destruído, o que principalmente se perdia?",
+      "opcoes": {
+        "a": "Apenas moradia",
+        "b": "Um ponto de comércio",
+        "c": "Um símbolo de liberdade coletiva",
+        "d": "Uma plantação"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Os quilombos eram projetos de sociedade livre e autônoma."
+    },
+    {
+      "id": 3,
+      "pergunta": "Por que Exu foi tão mal interpretado no Brasil?",
+      "opcoes": {
+        "a": "Por representar o mal",
+        "b": "Por racismo e sincretismo que o associaram ao diabo",
+        "c": "Por ser o deus da guerra",
+        "d": "Por não ter seguidores"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Foi demonizado por visão eurocêntrica que desrespeitava símbolos africanos."
+    },
+    {
+      "id": 4,
+      "pergunta": "Por que as religiões afro-brasileiras foram perseguidas mesmo após 1888?",
+      "opcoes": {
+        "a": "Por falta de igrejas",
+        "b": "Porque ameaçavam o controle social branco",
+        "c": "Porque não seguiam o catolicismo",
+        "d": "Por não terem líderes"
+      },
+      "resposta_correta": "b",
+      "explicacao": "A fé negra era vista como forma de autonomia e resistência cultural."
+    },
+    {
+      "id": 5,
+      "pergunta": "O que revela o sincretismo entre orixás e santos católicos?",
+      "opcoes": {
+        "a": "Confusão religiosa",
+        "b": "Estratégia para manter cultos africanos camuflados",
+        "c": "Aceitação total do catolicismo",
+        "d": "Prova de que rejeitaram suas crenças"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Permitiu continuar cultos africanos sob aparência católica para escapar da repressão."
+    },
+    {
+      "id": 6,
+      "pergunta": "O que foi a Revolta dos Malês em 1835?",
+      "opcoes": {
+        "a": "Um protesto contra impostos",
+        "b": "Levante de negros muçulmanos por liberdade",
+        "c": "Festa religiosa que virou confusão",
+        "d": "Greve de trabalhadores livres"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Mostrou articulação política e religiosa dos escravizados na Bahia."
+    },
+    {
+      "id": 7,
+      "pergunta": "Por que tantos negros seguiram na miséria após a abolição?",
+      "opcoes": {
+        "a": "Por escolha própria",
+        "b": "Faltaram políticas de inclusão e reparação",
+        "c": "Não conheciam o trabalho livre",
+        "d": "Não tinham fé"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Sem terra, moradia ou indenização, ficaram à margem da sociedade."
+    },
+    {
+      "id": 8,
+      "pergunta": "Por que dançar, cantar e cozinhar como na África era tão importante?",
+      "opcoes": {
+        "a": "Para passar o tempo",
+        "b": "Para vender comida",
+        "c": "Para manter identidade viva apesar da escravidão",
+        "d": "Para divertir os senhores"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Manter cultura era resistir ao apagamento e fortalecer laços."
+    },
+    {
+      "id": 9,
+      "pergunta": "Qual o papel dos atabaques nos terreiros de Candomblé?",
+      "opcoes": {
+        "a": "Fazer música para festa",
+        "b": "Chamar os orixás com ritmo sagrado",
+        "c": "Marcar o horário dos rituais",
+        "d": "Afastar maus espíritos"
+      },
+      "resposta_correta": "b",
+      "explicacao": "O toque dos tambores é essencial para invocar e homenagear orixás."
+    },
+    {
+      "id": 10,
+      "pergunta": "Qual o sentido de existir quilombos até hoje?",
+      "opcoes": {
+        "a": "Sinal de atraso",
+        "b": "Resquício do passado sem importância",
+        "c": "Continuidade da luta por terra, cultura e dignidade",
+        "d": "Áreas isoladas sem história"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Quilombos atuais mostram resistência viva e demanda por reparação histórica."
+    },
+    {
+      "id": 11,
+      "pergunta": "Por que preservar terreiros é fundamental para o Brasil?",
+      "opcoes": {
+        "a": "Pela arquitetura antiga",
+        "b": "Por manter viva uma fé perseguida e resistente",
+        "c": "Por atrair turistas",
+        "d": "Por obedecer leis municipais"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Os terreiros guardam histórias e práticas que resistiram a séculos de repressão."
+    },
+    {
+      "id": 12,
+      "pergunta": "O que é 'axé' nas religiões de matriz africana?",
+      "opcoes": {
+        "a": "Uma oferenda de flores",
+        "b": "Energia vital e força espiritual",
+        "c": "Um tipo de canto ritual",
+        "d": "Um símbolo de tristeza"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Axé é o poder sagrado que move pessoas, rituais e a própria natureza."
+    },
+    {
+      "id": 13,
+      "pergunta": "Por que Exu é chamado de mensageiro entre mundos?",
+      "opcoes": {
+        "a": "Por fazer viagens físicas",
+        "b": "Por carregar recados entre humanos e orixás",
+        "c": "Por governar o mar",
+        "d": "Por controlar o tempo"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Ele abre caminhos, comunica desejos e liga espiritual ao material."
+    },
+    {
+      "id": 14,
+      "pergunta": "O que representava contar histórias africanas nas senzalas?",
+      "opcoes": {
+        "a": "Medo dos senhores",
+        "b": "Diversão sem propósito",
+        "c": "Manter viva a memória e ensinar as gerações",
+        "d": "Falar mal do Brasil"
+      },
+      "resposta_correta": "c",
+      "explicacao": "A oralidade garantiu que tradições sobrevivessem apesar da violência."
+    },
+    {
+      "id": 15,
+      "pergunta": "Por que o sincretismo ajudou a manter religiões africanas vivas?",
+      "opcoes": {
+        "a": "Porque virou catolicismo puro",
+        "b": "Porque enganou a vigilância colonial",
+        "c": "Porque facilitou conversões",
+        "d": "Porque aboliu antigos rituais"
+      },
+      "resposta_correta": "b",
+      "explicacao": "O sincretismo foi escudo para proteger a fé africana em território hostil."
+    },
+    {
+      "id": 16,
+      "pergunta": "Por que a culinária afro-brasileira também é ato político?",
+      "opcoes": {
+        "a": "Por ser barata",
+        "b": "Por carregar memórias de resistência",
+        "c": "Porque rejeita temperos europeus",
+        "d": "Porque é servida em festas"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Pratos guardam segredos, técnicas e símbolos que resistiram à escravidão."
+    },
+    {
+      "id": 17,
+      "pergunta": "Por que as músicas de terreiro foram criminalizadas no passado?",
+      "opcoes": {
+        "a": "Por serem barulhentas",
+        "b": "Por unirem e fortalecerem a comunidade negra",
+        "c": "Porque não tinham letras",
+        "d": "Por não serem dançantes"
+      },
+      "resposta_correta": "b",
+      "explicacao": "As músicas reuniam, educavam e inspiravam união contra a opressão."
+    },
+    {
+      "id": 18,
+      "pergunta": "Qual o papel das mães-de-santo nos quilombos e terreiros?",
+      "opcoes": {
+        "a": "Controlar finanças",
+        "b": "Definir estratégias militares",
+        "c": "Transmitir saberes e guiar espiritualmente",
+        "d": "Impedir festas"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Eram líderes que mantinham tradições e curavam com saber ancestral."
+    },
+    {
+      "id": 19,
+      "pergunta": "Por que manter viva a memória de Zumbi dos Palmares é importante?",
+      "opcoes": {
+        "a": "Ele foi rei do Brasil",
+        "b": "Ele simboliza a luta pela liberdade e contra o racismo",
+        "c": "Ele escreveu livros famosos",
+        "d": "Ele fundou Salvador"
+      },
+      "resposta_correta": "b",
+      "explicacao": "Zumbi é ícone da resistência negra e inspira lutas atuais por igualdade."
+    },
+    {
+      "id": 20,
+      "pergunta": "O que o Candomblé nos ensina sobre o Brasil de hoje?",
+      "opcoes": {
+        "a": "Que o país rejeita totalmente o passado africano",
+        "b": "Que tradições africanas foram destruídas",
+        "c": "Que resistir culturalmente é manter viva a dignidade",
+        "d": "Que a fé é só entretenimento"
+      },
+      "resposta_correta": "c",
+      "explicacao": "O Candomblé é memória viva de resistência e dignidade afro-brasileira."
+    }
+  ]
+}

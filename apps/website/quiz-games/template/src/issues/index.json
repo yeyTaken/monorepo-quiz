@@ -1,0 +1,41 @@
+{
+  "tema": "Tema do quiz.",
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Pergunta 001",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "c",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 2,
+      "pergunta": "Pergunta 002",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 3,
+      "pergunta": "Pergunta 003",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "d",
+      "explicacao": "Explicação da resposta correta."
+    }
+  ]
+}
