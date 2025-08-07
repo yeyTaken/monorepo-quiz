@@ -1,305 +1,185 @@
 {
-  "tema": "Educação Antirracista: Compreendendo o Papel da Escola na Luta contra o Racismo Estrutural",
+  "tema": "Educação Antirracista e o Papel da Escola na Luta contra o Racismo Estrutural",
   "perguntas": [
     {
       "id": 1,
       "pergunta": "Qual é o principal objetivo da educação antirracista?",
       "opcoes": {
-        "a": "Ensinar apenas sobre a cultura africana.",
-        "b": "Combater o preconceito contra brancos.",
-        "c": "Valorizar a diversidade e combater o racismo estrutural.",
-        "d": "Substituir o ensino tradicional por conteúdos africanos."
+        "a": "Ensinar apenas a história do Brasil colonial.",
+        "b": "Valorizar as culturas europeias.",
+        "c": "Combater o racismo estrutural e promover inclusão.",
+        "d": "Eliminar o conteúdo de história afro-brasileira do currículo."
       },
       "resposta_correta": "c",
-      "explicacao": "A educação antirracista visa combater o racismo estrutural e valorizar a diversidade."
+      "explicacao": "A educação antirracista busca combater o racismo estrutural, promover a inclusão e valorizar a cultura afro-brasileira."
     },
     {
       "id": 2,
-      "pergunta": "Qual lei tornou obrigatório o ensino da história e cultura africana e afro-brasileira?",
+      "pergunta": "Qual lei tornou obrigatório o ensino da história e cultura africana e afro-brasileira nas escolas?",
       "opcoes": {
-        "a": "Lei 11.340/06",
-        "b": "Lei 10.639/03",
-        "c": "Lei 9.394/96",
-        "d": "Lei 12.711/12"
+        "a": "Lei 9.394/96",
+        "b": "Lei 10.172/01",
+        "c": "Lei 10.639/03",
+        "d": "Lei 11.274/06"
       },
-      "resposta_correta": "b",
-      "explicacao": "A Lei 10.639/03 tornou obrigatório o ensino da cultura africana e afro-brasileira."
+      "resposta_correta": "c",
+      "explicacao": "A Lei 10.639/03 alterou a LDB para incluir o ensino da história e cultura africana e afro-brasileira."
     },
     {
       "id": 3,
-      "pergunta": "Segundo o texto, o racismo estrutural está relacionado a:",
+      "pergunta": "Segundo o texto, por que muitos jovens abandonam a escola?",
       "opcoes": {
-        "a": "Casos isolados de racismo individual.",
-        "b": "Apenas a cultura midiática.",
-        "c": "Estruturas históricas e sociais que marginalizam a população negra.",
-        "d": "Atitudes agressivas entre alunos."
+        "a": "Porque querem viajar.",
+        "b": "Porque não gostam de estudar matemática.",
+        "c": "Porque não se sentem representados e precisam trabalhar.",
+        "d": "Porque preferem estudar em casa."
       },
       "resposta_correta": "c",
-      "explicacao": "O racismo estrutural é reproduzido por estruturas históricas que marginalizam a população negra."
+      "explicacao": "A exclusão escolar está relacionada à necessidade de trabalhar e à falta de representatividade e acolhimento na escola."
     },
     {
       "id": 4,
-      "pergunta": "Pergunta 004",
+      "pergunta": "Qual é a idade mínima para trabalhar no Brasil, segundo a Constituição Federal?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "12 anos",
+        "b": "14 anos",
+        "c": "15 anos",
+        "d": "16 anos"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "d",
+      "explicacao": "A Constituição estabelece 16 anos como idade mínima para o trabalho, exceto na condição de aprendiz, a partir dos 14."
     },
     {
       "id": 5,
-      "pergunta": "Pergunta 005",
+      "pergunta": "Qual grupo é maioria entre os jovens em situação de trabalho infantil?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Crianças brancas",
+        "b": "Jovens indígenas",
+        "c": "Jovens negros (pretos ou pardos)",
+        "d": "Jovens asiáticos"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "O texto aponta que 60% dos jovens em trabalho infantil são pretos ou pardos."
     },
     {
       "id": 6,
-      "pergunta": "Pergunta 006",
+      "pergunta": "O que a Lei 10.639/03 alterou?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "A Constituição",
+        "b": "O Código Penal",
+        "c": "A Lei de Diretrizes e Bases da Educação Nacional",
+        "d": "O Estatuto da Criança e do Adolescente"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "A Lei 10.639/03 alterou a LDB para incluir a obrigatoriedade do ensino da cultura afro-brasileira e africana."
     },
     {
       "id": 7,
-      "pergunta": "Pergunta 007",
+      "pergunta": "Qual fator é mais citado como motivo da evasão escolar entre jovens segundo a Pnad?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Problemas de saúde",
+        "b": "Gravidez precoce",
+        "c": "Falta de interesse",
+        "d": "Necessidade de trabalhar"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "d",
+      "explicacao": "A necessidade de trabalhar foi apontada como o motivo mais comum para a evasão escolar."
     },
     {
       "id": 8,
-      "pergunta": "Pergunta 008",
+      "pergunta": "O que a escola deve promover segundo Waldete Tristão?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Ensino técnico apenas.",
+        "b": "Aulas de reforço para provas.",
+        "c": "Um currículo voltado à cultura branca.",
+        "d": "A valorização da identidade e da diversidade racial."
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "d",
+      "explicacao": "A escola deve promover a valorização da identidade e da diversidade, enfrentando o racismo estrutural."
     },
     {
       "id": 9,
-      "pergunta": "Pergunta 009",
+      "pergunta": "Qual porcentagem de jovens de 14 a 29 anos não completaram a educação básica, segundo o texto?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "10,2%",
+        "b": "50,1%",
+        "c": "20,2%",
+        "d": "75%"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "20,2% dos jovens de 14 a 29 anos não completaram a educação básica, segundo a Pnad de 2020."
     },
     {
       "id": 10,
-      "pergunta": "Pergunta 010",
+      "pergunta": "Quem foi responsável por pressionar a criação da Lei 10.639?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Ministério da Saúde",
+        "b": "Movimentos sociais, especialmente o Movimento Negro",
+        "c": "Empresários da educação",
+        "d": "Universidades estrangeiras"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "b",
+      "explicacao": "A lei foi resultado de pressão de movimentos sociais, principalmente o Movimento Negro."
     },
     {
       "id": 11,
-      "pergunta": "Pergunta 011",
+      "pergunta": "Qual prática é essencial para garantir a permanência dos alunos negros na escola?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Conteúdos neutros",
+        "b": "Punições severas",
+        "c": "Educação antirracista com valorização da cultura negra",
+        "d": "Ensino à distância obrigatório"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "Valorizar a cultura negra ajuda os alunos a se sentirem representados e pertencentes ao espaço escolar."
     },
     {
       "id": 12,
-      "pergunta": "Pergunta 012",
+      "pergunta": "A maioria dos jovens em situação de trabalho perigoso é de qual faixa etária?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "0 a 4 anos",
+        "b": "5 a 13 anos",
+        "c": "5 a 17 anos",
+        "d": "18 a 25 anos"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "706 mil crianças e adolescentes entre 5 a 17 anos estavam em atividades perigosas em 2019."
     },
     {
       "id": 13,
-      "pergunta": "Pergunta 013",
+      "pergunta": "Como a escola pode combater estereótipos raciais?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Ignorando o tema",
+        "b": "Aplicando provas mais difíceis",
+        "c": "Incorporando conteúdos afro-brasileiros ao currículo",
+        "d": "Separando alunos por cor"
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "O combate a estereótipos passa pela inclusão curricular da diversidade e cultura negra."
     },
     {
       "id": 14,
-      "pergunta": "Pergunta 014",
+      "pergunta": "Qual a importância das famílias no processo de educação antirracista?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Apenas acompanhar as provas.",
+        "b": "Reclamar com a direção.",
+        "c": "Se envolver no cotidiano escolar.",
+        "d": "Ensinar conteúdos da Europa."
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "O envolvimento das famílias fortalece o trabalho antirracista da escola."
     },
     {
       "id": 15,
-      "pergunta": "Pergunta 015",
+      "pergunta": "O que é essencial para garantir acesso, permanência e qualidade da educação?",
       "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
+        "a": "Foco apenas em português e matemática.",
+        "b": "Falta de políticas públicas.",
+        "c": "Políticas inclusivas e de proteção.",
+        "d": "Ensino de conteúdos neutros."
       },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 16,
-      "pergunta": "Pergunta 016",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 17,
-      "pergunta": "Pergunta 017",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 18,
-      "pergunta": "Pergunta 018",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 19,
-      "pergunta": "Pergunta 019",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 20,
-      "pergunta": "Pergunta 020",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 21,
-      "pergunta": "Pergunta 021",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 22,
-      "pergunta": "Pergunta 022",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 23,
-      "pergunta": "Pergunta 023",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 24,
-      "pergunta": "Pergunta 024",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
-    },
-    {
-      "id": 25,
-      "pergunta": "Pergunta 025",
-      "opcoes": {
-        "a": "resposta 1",
-        "b": "resposta 2",
-        "c": "resposta 3",
-        "d": "resposta 4"
-      },
-      "resposta_correta": "a",
-      "explicacao": "Explicação da resposta correta."
+      "resposta_correta": "c",
+      "explicacao": "É necessário fortalecer políticas que garantam inclusão, permanência e respeito aos direitos humanos."
     }
   ]
 }
