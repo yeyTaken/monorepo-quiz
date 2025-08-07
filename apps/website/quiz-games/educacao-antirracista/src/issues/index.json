@@ -1,0 +1,305 @@
+{
+  "tema": "Educação Antirracista: Compreendendo o Papel da Escola na Luta contra o Racismo Estrutural",
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Qual é o principal objetivo da educação antirracista?",
+      "opcoes": {
+        "a": "Ensinar apenas sobre a cultura africana.",
+        "b": "Combater o preconceito contra brancos.",
+        "c": "Valorizar a diversidade e combater o racismo estrutural.",
+        "d": "Substituir o ensino tradicional por conteúdos africanos."
+      },
+      "resposta_correta": "c",
+      "explicacao": "A educação antirracista visa combater o racismo estrutural e valorizar a diversidade."
+    },
+    {
+      "id": 2,
+      "pergunta": "Qual lei tornou obrigatório o ensino da história e cultura africana e afro-brasileira?",
+      "opcoes": {
+        "a": "Lei 11.340/06",
+        "b": "Lei 10.639/03",
+        "c": "Lei 9.394/96",
+        "d": "Lei 12.711/12"
+      },
+      "resposta_correta": "b",
+      "explicacao": "A Lei 10.639/03 tornou obrigatório o ensino da cultura africana e afro-brasileira."
+    },
+    {
+      "id": 3,
+      "pergunta": "Segundo o texto, o racismo estrutural está relacionado a:",
+      "opcoes": {
+        "a": "Casos isolados de racismo individual.",
+        "b": "Apenas a cultura midiática.",
+        "c": "Estruturas históricas e sociais que marginalizam a população negra.",
+        "d": "Atitudes agressivas entre alunos."
+      },
+      "resposta_correta": "c",
+      "explicacao": "O racismo estrutural é reproduzido por estruturas históricas que marginalizam a população negra."
+    },
+    {
+      "id": 4,
+      "pergunta": "Pergunta 004",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 5,
+      "pergunta": "Pergunta 005",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 6,
+      "pergunta": "Pergunta 006",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 7,
+      "pergunta": "Pergunta 007",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 8,
+      "pergunta": "Pergunta 008",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 9,
+      "pergunta": "Pergunta 009",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 10,
+      "pergunta": "Pergunta 010",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 11,
+      "pergunta": "Pergunta 011",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 12,
+      "pergunta": "Pergunta 012",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 13,
+      "pergunta": "Pergunta 013",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 14,
+      "pergunta": "Pergunta 014",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 15,
+      "pergunta": "Pergunta 015",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 16,
+      "pergunta": "Pergunta 016",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 17,
+      "pergunta": "Pergunta 017",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 18,
+      "pergunta": "Pergunta 018",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 19,
+      "pergunta": "Pergunta 019",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 20,
+      "pergunta": "Pergunta 020",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 21,
+      "pergunta": "Pergunta 021",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 22,
+      "pergunta": "Pergunta 022",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 23,
+      "pergunta": "Pergunta 023",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 24,
+      "pergunta": "Pergunta 024",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    },
+    {
+      "id": 25,
+      "pergunta": "Pergunta 025",
+      "opcoes": {
+        "a": "resposta 1",
+        "b": "resposta 2",
+        "c": "resposta 3",
+        "d": "resposta 4"
+      },
+      "resposta_correta": "a",
+      "explicacao": "Explicação da resposta correta."
+    }
+  ]
+}
